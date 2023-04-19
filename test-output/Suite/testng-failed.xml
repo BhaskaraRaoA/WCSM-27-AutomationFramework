@@ -2,23 +2,29 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="SmokeSuite"/>
-      </run>
-    </groups>
     <classes>
-      <class name="vtiger.Organization.Tests.CreateOrganizationTest">
+      <class name="vtiger.Contact.Tests.CreateContactWithOrganizationTest">
         <methods>
           <include name="acConfig"/>
           <include name="asConfig"/>
-          <include name="createOrgTest"/>
+          <include name="sample"/>
           <include name="bsConfig"/>
           <include name="bmConfig"/>
           <include name="amConfig"/>
           <include name="bcConfig"/>
         </methods>
-      </class> <!-- vtiger.Organization.Tests.CreateOrganizationTest -->
+      </class> <!-- vtiger.Contact.Tests.CreateContactWithOrganizationTest -->
+      <class name="vtiger.Organization.Tests.CreateMultipleOrgTest">
+        <methods>
+          <include name="acConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+          <include name="amConfig"/>
+          <include name="createOrgTest" invocation-numbers="2"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- vtiger.Organization.Tests.CreateMultipleOrgTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -61,4 +61,15 @@ public class CreateMultipleOrgTest extends BaseClass{
 		return data;
 	}
 
+	
+	public void runSample()
+	{
+		System.out.println("hello bhaskar good afternoon");
+	}
+	
+	
+	
+	
+	
+	
 }

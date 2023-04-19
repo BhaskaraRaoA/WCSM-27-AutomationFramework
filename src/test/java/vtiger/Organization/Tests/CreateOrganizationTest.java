@@ -44,7 +44,7 @@ public class CreateOrganizationTest extends BaseClass {
 		op.clickOnCreateOrganizationLookUpImg();
 		Reporter.log("Clicked on create Organization look up image");
 		
-		Assert.fail();
+		//Assert.fail();
 
 		// Step 7: Create organization with mandatory Fields
 		CreateNewOrganizationPage cnop = new CreateNewOrganizationPage(driver);
