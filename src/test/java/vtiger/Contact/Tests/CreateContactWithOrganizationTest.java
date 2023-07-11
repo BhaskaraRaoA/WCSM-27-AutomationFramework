@@ -78,5 +78,9 @@ public class CreateContactWithOrganizationTest extends BaseClass {
 	{
 		System.out.println("sample");
 	}
-
+	public void AlltheBest()
+	{
+		System.out.println("All The Best");
+		
+	}
 }

@@ -85,28 +85,6 @@ public class CreateNewContactPage extends WebDriverUtility{
 		SaveBtn.click();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }
